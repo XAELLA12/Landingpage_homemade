@@ -1,0 +1,77 @@
+:root {
+    --background-color: #e8e1d7;
+    --text-color: #000;
+    --shadow: rgba(61, 60, 60, 0.25);
+    --font-family: "Darker Grotesque-Medium", Helvetica;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-family);
+  }
+  
+  .landingpage {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    width: 100%;
+  }
+  
+  .landingpage-mobile {
+    background-color: var(--background-color);
+    overflow: hidden;
+    width: 393px;
+    height: 855px;
+  }
+  
+  .SFONDO-MARMO {
+    width: 393px;
+    height: 855px;
+    object-fit: cover;
+  }
+  
+  .header-mobile {
+    width: 393px;
+    box-shadow: 0 4px 25px var(--shadow);
+    backdrop-filter: blur(3px) brightness(100%);
+  }
+  
+  .HOME-MADE-our-wrapper {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.44) 0%, rgba(255, 255, 255, 0.05) 100%);
+  }
+  
+  .HOME-MADE-our {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .card {
+    width: 342px;
+    height: 380px;
+    margin: 10px auto;
+    box-shadow: 0 4px 25px var(--shadow);
+    backdrop-filter: blur(3px) brightness(100%);
+    border-radius: 35px;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 35px;
+  }
+  
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.44) 0%, rgba(255, 255, 255, 0.05) 100%);
+  }
+  
